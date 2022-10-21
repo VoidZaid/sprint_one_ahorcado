@@ -13,7 +13,7 @@ inputWord.addEventListener('keydown', function(e){
     e.preventDefault();//con esto evitamos que se agregue el valor al presionar la tecla y solo se agrega lo de " word+="
     console.log(e);
     let char = keyValidation(e.keyCode);
-    console.log(char);
+    // console.log(char);
 
     if(e.keyCode == 8){
         // console.log("hola mundo");
